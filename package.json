@@ -1,0 +1,37 @@
+{
+  "version": "0.0.1",
+  "name": "primer-box",
+  "description": "A module for creating rounded-corner boxes with options for headers, lists, and footers.",
+  "homepage": "http://primercss.io/",
+  "author": "GitHub, Inc.",
+  "license": "MIT",
+  "style": "index.scss",
+  "files": [
+    "index.scss",
+    "lib",
+    "build"
+  ],
+  "repository": "https://github.com/primer/primer-box.git",
+  "bugs": {
+    "url": "https://github.com/primer/primer-box/issues"
+  },
+  "scripts": {
+    "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
+    "build": "node-sass index.scss --include-path node_modules --output-style compressed | postcss -c .postcss.json -o build/build.css",
+    "prepublish": "npm run setup && npm run build",
+    "test": "npm run build && stylelint **/*.scss -c .stylelintrc.json -s scss"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "node-sass": "^3.7.0",
+    "postcss-cli": "^2.5.2",
+    "stylelint": "^7.0.3",
+    "stylelint-config-primer": "^1.1.0"
+  },
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "primercss"
+  ]
+}
