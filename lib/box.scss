@@ -35,6 +35,10 @@
   padding: $spacer-3 $spacer-3;
 }
 
+.Box-danger-zone {
+  border-color: $text-red;
+}
+
 .Box-body-row {
   padding: $spacer-3 $spacer-3;
   margin: $spacer-3 (-$spacer-3) (-$spacer-3);
