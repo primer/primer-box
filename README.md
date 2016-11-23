@@ -35,16 +35,11 @@ $ npm run build
 
 ## Documentation
 
-You can read more about other primer modules in the [full primer docs][docs].
-
 <!-- %docs
 title: Box
-homepage: https://github.com/primer/primer-box
 status_issue: https://github.com/github/design-systems/issues/198
 status: New release
 -->
-
-### Box
 
 A `.Box` is a container with a a white background and light gray border. By default there are no additional styles, such as padding. These should be added as needed with utility classes.
 Additional `margin` or `padding` may be required to properly space content.
