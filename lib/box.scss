@@ -101,7 +101,7 @@
   padding: $spacer-3;
   margin-top: -1px;
   list-style-type: none; // To account for applying Box component to a list
-  border-top: $border-width $border-style $border-gray-light;
+  border-top: $border-width $border-style $border-gray;
 
   &:first-of-type {
     border-top-color: transparent;
@@ -261,7 +261,7 @@
 // Box row highlight themes
 
 .Box-row--yellow {
-  background-color: $bg-yellow-light;
+  background-color: $yellow-100;
 }
 
 .Box-row--blue {
