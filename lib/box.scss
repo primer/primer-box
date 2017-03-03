@@ -238,17 +238,17 @@
 // Applies and red border to the outside of the box,
 // but not to the border separating rows.
 .Box--danger {
-  border-color: $border-red-dark;
+  border-color: $border-red;
 
   .Box-row {
     &:first-of-type {
-      border-color: $border-red-dark;
+      border-color: $border-red;
     }
   }
 
   .Box-body {
     &:last-of-type {
-      border-color: $border-red-dark;
+      border-color: $border-red;
     }
   }
 }
