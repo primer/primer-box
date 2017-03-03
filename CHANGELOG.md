@@ -1,3 +1,7 @@
+# HEAD
+
+ * update border variable names used in components - broccolini [github/github@865ab4f](https://github.com/github/github/commit/865ab4f)
+
 # v2.1.0
 
  * update primer-core version number - broccolini [github/github@6846743](https://github.com/github/github/commit/6846743)
