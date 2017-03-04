@@ -1,5 +1,6 @@
-# HEAD
+# v2.1.1
 
+ * update version number after color variable updates - broccolini [github/github@b2a811a](https://github.com/github/github/commit/b2a811a)
  * update border variable names used in components - broccolini [github/github@865ab4f](https://github.com/github/github/commit/865ab4f)
 
 # v2.1.0
